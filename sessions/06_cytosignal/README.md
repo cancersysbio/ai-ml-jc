@@ -1,8 +1,8 @@
-# Session 02: CytoSignal
+# Session 06: CytoSignal
 
-- **Date:** TBD
+- **Date:** 2026-08-24
 - **Presenter:** Maryam Pourmaleki
-- **Paper:** [CytoSignal Detects Locations and Dynamics of Ligand-Receptor Signaling at Cellular Resolution from Spatial Transcriptomic Data](https://doi.org/10.1101/2024.03.08.584153) (Liu et al., *Nature Genetics* 2026)
+- **Paper:** [CytoSignal Detects Locations and Dynamics of Ligand-Receptor Signaling at Cellular Resolution from Spatial Transcriptomic Data](https://www.nature.com/articles/s41588-026-02624-9) (Liu et al., *Nature Genetics* 2026)
 
 ## Summary
 
@@ -28,13 +28,16 @@ significance via a spatial permutation test with spatial FDR correction.
 
 ## Resources
 
-- [bioRxiv preprint](https://doi.org/10.1101/2024.03.08.584153)
+- [Paper (Nature Genetics)](https://www.nature.com/articles/s41588-026-02624-9)
 - [CytoSignal GitHub](https://github.com/welch-lab/cytosignal)
+- [Slides](https://docs.google.com/presentation/d/1O0ouGGh-Aty_DyArXxZWSMcRJXdG3iKNs5D55qXKOCA/edit?slide=id.p#slide=id.p)
 
 ## Implementation
 
 Applied to a real breast cancer spatial dataset (`breast_atera`, ~170K
-cells), clustered using an external cell-type labeling of a
+cells; originally [10x Genomics' Atera WTA FFPE Human Breast Cancer
+dataset](https://www.10xgenomics.com/datasets/atera-wta-ffpe-human-breast-cancer)),
+clustered using an external cell-type labeling of a
 [grafiti](https://github.com/nceglia/grafiti) spatial-autoencoder model run
 on the same data. See [`implementation.ipynb`](implementation.ipynb) for the
 live results walkthrough, and [`pipeline/`](pipeline/) for the scripts that
