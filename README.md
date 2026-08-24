@@ -20,7 +20,7 @@ If you don't have time, feel free to ask to reschedule or at minimum share notes
 | # | Date | Presenter | Paper | Session |
 |---|------|-----------|-------|---------|
 | 1 | 2026-04-22 | @tulerpetontidae (Artem) | Neural Ordinary Differential Equations (Chen et al., 2018) | [session](sessions/01_neural_odes/) |
-| 2 | 2026-05-11 | TBD | TBD | |
+| 2 | TBD | Maryam Pourmaleki | CytoSignal (Liu et al., *Nature Genetics* 2026) | [session](sessions/02_cytosignal/) |
 | 3 | 2026-06-01 | TBD | TBD | |
 | 4 | 2026-06-22 | TBD | TBD | |
 
